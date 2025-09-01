@@ -64,3 +64,14 @@ readMoreBtn.addEventListener("click", () => {
   }
 });
 
+const showMoreBtn = document.getElementById("showMoreBtn");
+const hiddenProjects = document.querySelector(".hidden-projects");
+
+showMoreBtn.addEventListener("click", () => {
+  hiddenProjects.classList.toggle("show");
+  showMoreBtn.textContent = hiddenProjects.classList.contains("show")
+    ? "Show Less Projects"
+    : "Show More Projects";
+});
+
+

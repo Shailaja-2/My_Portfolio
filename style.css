@@ -153,6 +153,25 @@ section {
     animation-delay: 2s, 1.2s;
 }
 
+
+
+/* Hidden projects styling */
+.show-more-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.hidden-projects {
+    display: none;
+}
+
+.hidden-projects.show {
+    display: block;
+}
+
+
+
+
 @keyframes textSlide {
 
     0%,
